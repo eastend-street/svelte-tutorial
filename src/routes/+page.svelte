@@ -1,5 +1,8 @@
 <script>
-  let name = 'Svelte';
+  let titleName = 'Svelte';
+  let src = '/image.gif'
+  let name = "Rick Astley"
 </script>
 
-<h1>Hello {name.toUpperCase()}!</h1>
+<h1>Hello {titleName.toUpperCase()}!</h1>
+<img {src} alt="{name} dances.">
